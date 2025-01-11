@@ -1,0 +1,153 @@
+<!--Q1-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <table border="">
+        <caption>
+          Student Information
+        </caption>
+        <thead>
+          <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+          </tr>
+          <tr>
+            <th>City</th>
+            <th>House</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <br />
+    <br />
+    <hr />
+    <hr />
+
+    <!--Q2-->
+    <br />
+
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+    </div>
+    <br />
+    <div>
+      <span>Sex:</span>
+      <input type="radio" id="m" name="gender" value="male" />
+      <label for="m">Male</label>
+
+      <input type="radio" id="f" name="gender" value="female" />
+      <label for="f">Female</label>
+      <br />
+      <br />
+    </div>
+
+    <div>
+      <label for="C">Country:</label>
+      <select name="Country" id="c">
+        <option value="">Select an option</option>
+        <option value="India">India</option>
+
+        <option value="Germany">Germany</option>
+        <option value="US">US</option>
+      </select>
+    </div>
+    <br />
+    <div>
+      <label for="text"> Message:</label><br />
+      <textarea name="feedback" id="text"></textarea>
+    </div>
+    <br />
+    <div>
+      <input type="checkbox" name="check" id="chk" />
+      <label for="chk">Subscribe?</label>
+    </div>
+
+    <br />
+    <hr />
+    <!--Q3-->
+    <br />
+    <form action="http://abc.com">
+      <h1>Feedback Form</h1>
+      <div>
+        <label for="form">Name:</label>
+        <input
+          type="text"
+          placeholder="Write your name"
+          id="form"
+          name="name"
+        /><br />
+        <br />
+        <label for="mail">Email:</label>
+        <input
+          type="email"
+          placeholder="Write your email"
+          id="mail"
+          name="email"
+        />
+      </div>
+      <div>
+        <label for="f">Message:</label><br />
+        <textarea name="feedback" id="f"></textarea>
+      </div>
+      <br />
+      <div>
+        Rate out of 5:
+        <br />
+        <input type="radio" name="rating" id="1" value="1" />
+        <label for="1">1</label>
+        <br />
+        <input type="radio" name="rating" id="2" value="2" />
+        <label for="2">2</label>
+        <br />
+        <input type="radio" name="rating" id="3" value="3" />
+        <label for="3">3</label>
+        <br />
+        <input type="radio" name="rating" id="4" value="4" />
+        <label for="4">4</label>
+        <br />
+        <input type="radio" name="rating" id="5" value="5" />
+        <label for="5">5</label>
+      </div>
+      <br />
+      <br />
+
+      <button>Send your message!</button>
+    </form>
+  </body>
+</html>
