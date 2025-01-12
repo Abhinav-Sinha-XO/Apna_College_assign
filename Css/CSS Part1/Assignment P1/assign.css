@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  font: Georgia;
+}
+h3 {
+  color: black;
+}
+p {
+  color: red;
+  line-height: 30px;
+}
+button {
+  background-color: white;
+  color: blueviolet;
+}
+
+textarea {
+  color: black(10, 118, 12);
+}
+span {
+  text-decoration: underline;
+}
