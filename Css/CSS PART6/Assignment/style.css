@@ -1,0 +1,43 @@
+.container{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12,1fr) ;
+  grid-template-rows: repeat(12,1fr);
+  background-color: black;
+  grid-gap: 10px;
+}
+
+.header{
+  grid-column: 1/ span 12;
+  background-color: blueviolet;
+}
+
+.sidebar{
+  grid-row: 2/ span 10;
+  grid-column: 1/ span 3;
+  background-color: blueviolet;
+}
+.navigation{
+  grid-column: 4/ span 6;
+  background-color: aqua;
+}
+
+.main{
+  grid-column: 4/ span 6;
+  grid-row: 3/ span 9;
+  background-color: red;
+}
+
+.ads{
+  grid-row: 2/ span 10;
+  grid-column: 10/ span 3;
+  background-color: bisque;
+}
+
+.footer{
+  grid-column: 1/ span 12;
+  background-color: chartreuse;
+  
+}
